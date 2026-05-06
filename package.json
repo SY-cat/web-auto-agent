@@ -1,0 +1,17 @@
+{
+  "name": "web-auto-agent",
+  "version": "1.0.0",
+  "description": "AI-driven web automation system with multi-agent collaboration (Planner, Browser, Extractor, Verifier), powered by Xiaomi MiMo",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test.js",
+    "demo:news": "node examples/news-digest.js",
+    "demo:price": "node examples/price-monitor.js"
+  },
+  "keywords": ["web-automation", "multi-agent", "ai", "mimo", "scraper", "planner", "extractor"],
+  "author": "SY-cat",
+  "license": "MIT",
+  "dependencies": {},
+  "engines": { "node": ">=18.0.0" }
+}
